@@ -17,6 +17,18 @@ body{
 
 }
 
+#cuentaNueva{
+    color: white;
+    border-color: orange;
+    border-bottom-style: double;
+    position: absolute;
+    padding: 4%;
+    left: 15%;
+    top: 20%;
+    border-top-style: double;
+    font-family: sans-serif;
+}
+
 #botonLogin {
     font-family: sans-serif;
     display: inline;
@@ -36,7 +48,31 @@ body{
     transition: all 0.5s;
 }
 
+#botonCuenta {
+    font-family: sans-serif;
+    display: inline;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    font-size: 15px;    
+    width: 100px;
+    height: 30px;
+    margin: 5px;       
+    vertical-align: middle;
+    align-self: center;
+    top: 80%;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+
 #botonLogin:hover{
+    background-color: white;
+    color: black;
+}
+#botonCuenta:hover{
     background-color: white;
     color: black;
 }
@@ -62,6 +98,12 @@ a:hover{
     position: absolute;
     top: 8%  ;
     left: 31%;
+}
+
+#tituloCuenta{
+    position: absolute;
+    top: 4%  ;
+    left: 20%;
 }
 
 

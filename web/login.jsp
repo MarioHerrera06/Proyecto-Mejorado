@@ -27,7 +27,7 @@
 		</table>
             <input  type="submit" value="Ingresar" id="botonLogin" /><br>
 	</form>
-        <br><a href="" id="nuevaCuenta" class="nuevaLink">Nueva cuenta </a>
+        <br><a href="nuevaCuenta.jsp" id="nuevaCuenta" class="nuevaLink">Nueva cuenta </a>
       
 
     </body>
