@@ -120,6 +120,13 @@ section{
     padding: 0%;
     
 }
+
+#loginTitulo{
+    position: absolute;
+    top: 13%;
+    left: 32%;
+}
+
 /*Restaurante*/
  #plato{
     position: absolute;

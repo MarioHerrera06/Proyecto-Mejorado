@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
+
     <%@include file="header.jsp" %>
     <%@include file="nav.jsp" %>
     <%@include file="aside.jsp" %>
@@ -47,13 +47,6 @@
                 
             
         </section>
-=======
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>El corral</title>
-    </head>
-    <body>
-        <h1>El corral</h1>
->>>>>>> origin/master
+
     </body>
 </html>

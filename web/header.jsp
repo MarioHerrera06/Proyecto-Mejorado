@@ -10,8 +10,8 @@
 
     <header> 
         <link href="styles/Style.css" rel="stylesheet" type="text/css">
-         <img id="headerTitulo" src="https://images.cooltext.com/4901958.png" width="500" height="100" alt="Come y me cuentas" />
-       
+        <a href="index.jsp"><img id="headerTitulo" src="https://images.cooltext.com/4901958.png" width="500" height="100" alt="Come y me cuentas" /></a>
+      
     </header> 
 
 </html>
