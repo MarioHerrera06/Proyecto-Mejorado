@@ -17,7 +17,7 @@
         <section>
 
             <h1 id="tituloCuenta"> Nueva Cuenta</h1> 
-            <form id="cuentaNueva" action="cuentaSerlvet" method="POST">
+            <form id="cuentaNueva" action="cuenta" method="POST">
                 Nombre :
                 <input type="text" name="nombre"><br>
                 <br>

@@ -14,17 +14,17 @@
     </head>
     <body>
 
-        <img id="loginTitulo" src="https://images.cooltext.com/4901958.png" width="500" height="100" alt="Come y me cuentas" />
+        <img id="loginTitulo" src="" width="500" height="100" alt="Come y me cuentas" />
 
         <form id="formularioLogin" action="loginServlet" method="POST">
             <table>
                 <tr>
                     <td>Usuario:</td>
-                    <td><input name="user" placeholder="Escriba su usuario"  /></td>
+                    <td><input type="text" name="user" placeholder="Escriba su usuario"  /></td>
 
                 <tr>
                     <td>Contraseña:</td>
-                    <td><input name="password" placeholder="Escriba su contraseña" /></td>
+                    <td><input type="password" name="password" placeholder="Escriba su contraseña" /></td>
                 </tr>
             </table>
             <input  type="submit" value="Ingresar" id="botonLogin" /><br>
