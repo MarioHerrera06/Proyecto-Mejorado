@@ -1,3 +1,5 @@
+package Servlets;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,7 +10,7 @@
  *
  * @author Valentina
  */
-public class usuario {
+public class Usuario {
     public String nombre;
     public String apellidos;
     public String edad;
@@ -16,7 +18,7 @@ public class usuario {
     public String correo;
     public String contraseña;
 
-    public usuario(String nombre, String apellidos, String edad, String celular, String correo, String contraseña) {
+    public Usuario(String nombre, String apellidos, String edad, String celular, String correo, String contraseña) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;

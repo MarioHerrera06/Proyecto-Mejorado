@@ -1,5 +1,8 @@
+package Servlets;
 
 
+
+import Servlets.Cuenta;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -12,7 +15,7 @@ import javax.servlet.http.HttpSession;
 
 
 @WebServlet(urlPatterns = {"/loginServlet"})
-public class loginServlet extends HttpServlet {
+public class LoginServlet extends HttpServlet {
 
    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -42,7 +45,7 @@ public class loginServlet extends HttpServlet {
         String name= request.getParameter("user");
         String password=request.getParameter("password");
         
-        if(password.equals(cuenta.contraseña)&& name.equals(cuenta.nombre)){
+        if(password.equals(Cuenta.contraseña)&& name.equals(Cuenta.nombre)){
             HttpSession session=request.getSession();
             session.setAttribute("user", name);
             RequestDispatcher dispacher = request.getRequestDispatcher("index.jsp");

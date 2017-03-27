@@ -1,3 +1,5 @@
+package Servlets;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -5,6 +7,7 @@
  */
 
 
+import com.sun.java.swing.plaf.windows.resources.windows;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -20,9 +23,9 @@ import javax.servlet.http.HttpServletResponse;
  * @author Valentina
  */
 @WebServlet(urlPatterns = {"/cuenta"})
-public class cuenta extends HttpServlet {
+public class Cuenta extends HttpServlet {
 
-  public static ArrayList<usuario> listaUsuarios = new ArrayList<>();
+  public static ArrayList<Usuario> listaUsuarios = new ArrayList<>();
  
         
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -47,6 +50,8 @@ public class cuenta extends HttpServlet {
     }
     
     public static String nombre,contraseña;
+   public static HttpServletRequest request;
+     public static HttpServletResponse response;
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -58,7 +63,7 @@ public class cuenta extends HttpServlet {
                 String celular = request.getParameter("celular");
                 String correo = request.getParameter("correo");
                 contraseña = request.getParameter("password");
-		usuario usuario= new usuario(nombre,apellidos, edad, celular, correo,contraseña);
+		Usuario usuario= new Usuario(nombre,apellidos, edad, celular, correo,contraseña);
                 listaUsuarios.add(usuario);  
                  RequestDispatcher dispacher = request.getRequestDispatcher("newjsp.jsp");
             dispacher.forward(request, response);

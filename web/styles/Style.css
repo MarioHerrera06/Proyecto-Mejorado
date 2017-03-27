@@ -16,6 +16,9 @@ body{
     font-family: sans-serif;
 
 }
+.red{
+    color:#ff0000;      
+}
 
 #cuentaNueva{
     color: white;
@@ -24,7 +27,7 @@ body{
     position: absolute;
     padding: 4%;
     left: 15%;
-    top: 20%;
+    top: 30%;
     border-top-style: double;
     font-family: sans-serif;
 }
